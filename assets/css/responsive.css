@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+    .wrapper-one-content {
+        display: block;
+    }
+    .wrapper-one-left {
+        margin: 30px auto;
+    }
+    .phone {
+        width: 350px;
+    }
+    .wrapper-two {
+        height: auto;
+    }
+    .wrapper-two-content {
+        width: 800px;
+        margin: 60px;
+        display: block;
+    }
+    .wrapper-two-left img {
+        width: 700px;
+    }
+    .wrapper-two-right{
+        margin-left: 0px;
+    }
+    .wrapper-three {
+        height: auto;
+    }
+    .wrapper-three-h3 {
+        margin: 50px;
+    }
+    .three-boxes-content {
+        margin: 50px auto;
+        grid-template-columns: 1fr;
+    }
+    .three-boxe {
+        width: auto;
+        height: auto;
+    }
+}
+    
+
+@media (max-width: 900px) {
+    .wrapper-two-left img {
+        width: 550px;
+    }
+    nav h2 {
+        margin: 15px auto auto 0px;
+    }
+    .wrapper-four-container {
+        width: auto;
+        height: 1150px;
+        flex-direction: column;
+    }
+    .wrapper-four-right {
+        margin-top: 40px;
+        height: auto;
+    }
+    .wrapper-four-container img{
+        width: 300px;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .banner-buttons {
+        width: 300px;
+    }
+    .wrapper-one-left{
+        width: 350px;
+    }
+    .phone {
+        width: 350px;
+    }
+    .wrapper-two-left img {
+        width: 360px;
+    }
+    .wrapper-two-right{
+        width: 350px;
+        margin-bottom: 80px;
+    }
+    .three-boxe {
+        margin: auto 20px;
+    } 
+    .wrapper-four-right {
+        width: 360px;
+    }
+    .wrapper-five {
+        height: 380px;
+    }
+    .wrapper-five-container {
+        width: auto;
+    }
+    .wrapper-five-container h3{
+        margin-bottom: 10px;
+    }
+    .wrapper-five-input {
+        flex-direction: column;
+    }
+    .wrapper-five-input input{
+        width: 350px;
+    }
+    .subscribe-input {
+        margin-top: 10px;
+    }
+    .wrapper-six-container input {
+        width: 370px;
+    }
+    .wrapper-six-container textarea {
+        width: 370px;
+    }
+    .send-message {
+        margin-left: 30%;
+    }
+}
+
